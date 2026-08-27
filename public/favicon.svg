@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Shield Background -->
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2638"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="elixirGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#DB2777"/>
+    </linearGradient>
+  </defs>
+  <!-- Base Shield -->
+  <path d="M32 4L54 12V32C54 45.2 44.6 57.3 32 60C19.4 57.3 10 45.2 10 32V12L32 4Z" fill="url(#shieldGrad)" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Inner Shield Accent -->
+  <path d="M32 10L48 16V31C48 41.2 41.2 50.5 32 53C22.8 50.5 16 41.2 16 31V16L32 10Z" fill="#131823" stroke="#2A3447" stroke-width="1.5"/>
+  <!-- Crossed Swords -->
+  <path d="M22 22L42 42M42 22L22 42" stroke="url(#goldGrad)" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Central Clash Gem -->
+  <polygon points="32,24 38,32 32,40 26,32" fill="url(#elixirGrad)" stroke="#FFFFFF" stroke-width="1"/>
+</svg>

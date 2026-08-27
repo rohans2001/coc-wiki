@@ -1,0 +1,191 @@
+{
+  "version": "1.0",
+  "source": {
+    "name": "Supercell Official Clash of Clans Verified Dataset",
+    "url": "https://supercell.com/en/games/clashofclans/",
+    "license": "Fair Use / Supercell Fan Content Policy",
+    "attribution": "Supercell Oy & Clash Archive Content Engine"
+  },
+  "exportedAt": "2026-08-27T00:00:00Z",
+  "entities": [
+    {
+      "name": "Barbarian",
+      "slug": "barbarian",
+      "entityType": "troop",
+      "category": "troops",
+      "subcategory": "elixir_troop",
+      "summary": "Fearless melee warrior with glorious yellow mustache.",
+      "description": "This fearless warrior relies on his bulging muscles and striking mustache to wreak havoc in enemy villages. Release a horde of Barbarians and enjoy the mayhem!",
+      "unlockTownHall": 1,
+      "maxLevel": 12,
+      "isFeatured": true,
+      "isActive": true,
+      "stats": {
+        "housingSpace": 1,
+        "movementSpeed": 16,
+        "attackSpeed": 1.0,
+        "range": 0.4,
+        "targetType": "Ground",
+        "damageType": "Single Target"
+      },
+      "levels": [
+        { "level": 1, "requiredTownHall": 1, "upgradeCost": 0, "upgradeCurrency": "free", "upgradeTime": "None", "upgradeTimeSeconds": 0, "hitpoints": 45, "damagePerSecond": 9, "damagePerAttack": 9 },
+        { "level": 2, "requiredTownHall": 2, "upgradeCost": 2000, "upgradeCurrency": "elixir", "upgradeTime": "2h", "upgradeTimeSeconds": 7200, "hitpoints": 54, "damagePerSecond": 12, "damagePerAttack": 12 },
+        { "level": 3, "requiredTownHall": 3, "upgradeCost": 15000, "upgradeCurrency": "elixir", "upgradeTime": "4h", "upgradeTimeSeconds": 14400, "hitpoints": 65, "damagePerSecond": 15, "damagePerAttack": 15 },
+        { "level": 4, "requiredTownHall": 5, "upgradeCost": 60000, "upgradeCurrency": "elixir", "upgradeTime": "8h", "upgradeTimeSeconds": 28800, "hitpoints": 78, "damagePerSecond": 18, "damagePerAttack": 18 },
+        { "level": 5, "requiredTownHall": 7, "upgradeCost": 150000, "upgradeCurrency": "elixir", "upgradeTime": "12h", "upgradeTimeSeconds": 43200, "hitpoints": 95, "damagePerSecond": 23, "damagePerAttack": 23 },
+        { "level": 6, "requiredTownHall": 8, "upgradeCost": 400000, "upgradeCurrency": "elixir", "upgradeTime": "18h", "upgradeTimeSeconds": 64800, "hitpoints": 110, "damagePerSecond": 28, "damagePerAttack": 28 },
+        { "level": 7, "requiredTownHall": 9, "upgradeCost": 1000000, "upgradeCurrency": "elixir", "upgradeTime": "1d", "upgradeTimeSeconds": 86400, "hitpoints": 125, "damagePerSecond": 34, "damagePerAttack": 34 },
+        { "level": 8, "requiredTownHall": 10, "upgradeCost": 2000000, "upgradeCurrency": "elixir", "upgradeTime": "2d", "upgradeTimeSeconds": 172800, "hitpoints": 145, "damagePerSecond": 42, "damagePerAttack": 42 },
+        { "level": 9, "requiredTownHall": 11, "upgradeCost": 3500000, "upgradeCurrency": "elixir", "upgradeTime": "3d", "upgradeTimeSeconds": 259200, "hitpoints": 170, "damagePerSecond": 48, "damagePerAttack": 48 },
+        { "level": 10, "requiredTownHall": 12, "upgradeCost": 5000000, "upgradeCurrency": "elixir", "upgradeTime": "4d", "upgradeTimeSeconds": 345600, "hitpoints": 205, "damagePerSecond": 56, "damagePerAttack": 56 },
+        { "level": 11, "requiredTownHall": 13, "upgradeCost": 7500000, "upgradeCurrency": "elixir", "upgradeTime": "6d", "upgradeTimeSeconds": 518400, "hitpoints": 230, "damagePerSecond": 62, "damagePerAttack": 62 },
+        { "level": 12, "requiredTownHall": 14, "upgradeCost": 9000000, "upgradeCurrency": "elixir", "upgradeTime": "7d", "upgradeTimeSeconds": 604800, "hitpoints": 260, "damagePerSecond": 70, "damagePerAttack": 70 }
+      ],
+      "trivia": [
+        "The Barbarian is the first troop unlocked in Clash of Clans.",
+        "Barbarians were inspired by traditional Nordic warriors."
+      ],
+      "tips": [
+        "Deploy in spread lines rather than a single tight cluster to avoid splash defense wipes.",
+        "Use as distraction meat shields while Archers or Wizards deal damage behind."
+      ],
+      "strengths": [
+        "Extremely low housing space cost (1 space)",
+        "Fast training time and rapid deployment swarm potential"
+      ],
+      "weaknesses": [
+        "Vulnerable to Mortars and Wizard Towers splash damage",
+        "Melee only range requires navigating around walls"
+      ]
+    },
+    {
+      "name": "Archer",
+      "slug": "archer",
+      "entityType": "troop",
+      "category": "troops",
+      "subcategory": "elixir_troop",
+      "summary": "Sharpshooter with pink hair and keen vision.",
+      "description": "These sharpshooters like to keep their distance in battle. Nothing makes them happier than picking off targets from behind the protection of frontline tanks.",
+      "unlockTownHall": 1,
+      "maxLevel": 12,
+      "isFeatured": true,
+      "isActive": true,
+      "stats": {
+        "housingSpace": 1,
+        "movementSpeed": 24,
+        "attackSpeed": 1.0,
+        "range": 3.5,
+        "targetType": "Ground & Air",
+        "damageType": "Single Target"
+      },
+      "levels": [
+        { "level": 1, "requiredTownHall": 1, "upgradeCost": 0, "upgradeCurrency": "free", "upgradeTime": "None", "upgradeTimeSeconds": 0, "hitpoints": 20, "damagePerSecond": 7, "damagePerAttack": 7 },
+        { "level": 2, "requiredTownHall": 2, "upgradeCost": 2500, "upgradeCurrency": "elixir", "upgradeTime": "2h", "upgradeTimeSeconds": 7200, "hitpoints": 23, "damagePerSecond": 9, "damagePerAttack": 9 },
+        { "level": 3, "requiredTownHall": 3, "upgradeCost": 20000, "upgradeCurrency": "elixir", "upgradeTime": "4h", "upgradeTimeSeconds": 14400, "hitpoints": 28, "damagePerSecond": 12, "damagePerAttack": 12 },
+        { "level": 4, "requiredTownHall": 5, "upgradeCost": 80000, "upgradeCurrency": "elixir", "upgradeTime": "8h", "upgradeTimeSeconds": 28800, "hitpoints": 33, "damagePerSecond": 16, "damagePerAttack": 16 },
+        { "level": 5, "requiredTownHall": 7, "upgradeCost": 200000, "upgradeCurrency": "elixir", "upgradeTime": "12h", "upgradeTimeSeconds": 43200, "hitpoints": 40, "damagePerSecond": 20, "damagePerAttack": 20 },
+        { "level": 6, "requiredTownHall": 8, "upgradeCost": 500000, "upgradeCurrency": "elixir", "upgradeTime": "18h", "upgradeTimeSeconds": 64800, "hitpoints": 48, "damagePerSecond": 25, "damagePerAttack": 25 },
+        { "level": 7, "requiredTownHall": 9, "upgradeCost": 1200000, "upgradeCurrency": "elixir", "upgradeTime": "1d", "upgradeTimeSeconds": 86400, "hitpoints": 56, "damagePerSecond": 30, "damagePerAttack": 30 },
+        { "level": 8, "requiredTownHall": 10, "upgradeCost": 2400000, "upgradeCurrency": "elixir", "upgradeTime": "2d", "upgradeTimeSeconds": 172800, "hitpoints": 66, "damagePerSecond": 36, "damagePerAttack": 36 },
+        { "level": 9, "requiredTownHall": 11, "upgradeCost": 4000000, "upgradeCurrency": "elixir", "upgradeTime": "3d", "upgradeTimeSeconds": 259200, "hitpoints": 76, "damagePerSecond": 42, "damagePerAttack": 42 },
+        { "level": 10, "requiredTownHall": 12, "upgradeCost": 6000000, "upgradeCurrency": "elixir", "upgradeTime": "4d", "upgradeTimeSeconds": 345600, "hitpoints": 86, "damagePerSecond": 48, "damagePerAttack": 48 },
+        { "level": 11, "requiredTownHall": 13, "upgradeCost": 8500000, "upgradeCurrency": "elixir", "upgradeTime": "6d", "upgradeTimeSeconds": 518400, "hitpoints": 94, "damagePerSecond": 56, "damagePerAttack": 56 },
+        { "level": 12, "requiredTownHall": 14, "upgradeCost": 10500000, "upgradeCurrency": "elixir", "upgradeTime": "7d", "upgradeTimeSeconds": 604800, "hitpoints": 102, "damagePerSecond": 64, "damagePerAttack": 64 }
+      ],
+      "tips": ["Pair behind Giants or Golems to shoot over walls safely."],
+      "strengths": ["Ranged attack can hit over walls", "Targets both air and ground"],
+      "weaknesses": ["Very low hitpoints make them vulnerable to Mortar one-shots"]
+    },
+    {
+      "name": "Archer Queen",
+      "slug": "archer-queen",
+      "entityType": "hero",
+      "category": "heroes",
+      "subcategory": "hero",
+      "summary": "Graceful huntress with unmatched ranged modified crossbow.",
+      "description": "This graceful huntress is a master of destructive force, though modest in health. She targets air and ground units, firing modified X-Bow bolts at long distance.",
+      "unlockTownHall": 9,
+      "maxLevel": 95,
+      "isFeatured": true,
+      "isActive": true,
+      "stats": {
+        "movementSpeed": 24,
+        "attackSpeed": 0.75,
+        "range": 5.0,
+        "targetType": "Ground & Air",
+        "damageType": "Single Target"
+      },
+      "levels": [
+        { "level": 1, "requiredTownHall": 9, "upgradeCost": 10000, "upgradeCurrency": "dark_elixir", "upgradeTime": "None", "upgradeTimeSeconds": 0, "hitpoints": 725, "damagePerSecond": 160, "regenerationTimeMinutes": 10 },
+        { "level": 10, "requiredTownHall": 9, "upgradeCost": 35000, "upgradeCurrency": "dark_elixir", "upgradeTime": "12h", "upgradeTimeSeconds": 43200, "hitpoints": 950, "damagePerSecond": 220, "regenerationTimeMinutes": 14 },
+        { "level": 20, "requiredTownHall": 9, "upgradeCost": 60000, "upgradeCurrency": "dark_elixir", "upgradeTime": "1d", "upgradeTimeSeconds": 86400, "hitpoints": 1250, "damagePerSecond": 300, "regenerationTimeMinutes": 18 },
+        { "level": 40, "requiredTownHall": 10, "upgradeCost": 110000, "upgradeCurrency": "dark_elixir", "upgradeTime": "2d", "upgradeTimeSeconds": 172800, "hitpoints": 2000, "damagePerSecond": 450, "regenerationTimeMinutes": 26 },
+        { "level": 65, "requiredTownHall": 12, "upgradeCost": 190000, "upgradeCurrency": "dark_elixir", "upgradeTime": "4d", "upgradeTimeSeconds": 345600, "hitpoints": 2900, "damagePerSecond": 650, "regenerationTimeMinutes": 34 },
+        { "level": 95, "requiredTownHall": 16, "upgradeCost": 340000, "upgradeCurrency": "dark_elixir", "upgradeTime": "8d", "upgradeTimeSeconds": 691200, "hitpoints": 3950, "damagePerSecond": 920, "regenerationTimeMinutes": 44 }
+      ],
+      "tips": ["The Queen Charge tactic using Healers is one of the most powerful strategies in Clash history."],
+      "strengths": ["Immense single-target DPS", "Long 5.0 tile range"],
+      "weaknesses": ["Vulnerable to Single-target Inferno Towers and Monolith"]
+    },
+    {
+      "name": "Rage Spell",
+      "slug": "rage-spell",
+      "entityType": "spell",
+      "category": "spells",
+      "subcategory": "elixir_spell",
+      "summary": "Enrages units to make them larger, faster, and hit significantly harder.",
+      "description": "Enrage your units to make them bigger, faster, and dramatically more destructive! Create a Ring of Rage to make your army sprint through enemy defenses.",
+      "unlockTownHall": 7,
+      "maxLevel": 6,
+      "isFeatured": true,
+      "isActive": true,
+      "stats": {
+        "housingSpace": 2,
+        "radius": 5.0,
+        "brewingTimeSeconds": 180,
+        "effectType": "Damage & Speed Boost"
+      },
+      "levels": [
+        { "level": 1, "requiredTownHall": 7, "upgradeCost": 250000, "upgradeCurrency": "elixir", "upgradeTime": "8h", "upgradeTimeSeconds": 28800, "boostPercent": 130, "durationSeconds": 18 },
+        { "level": 2, "requiredTownHall": 7, "upgradeCost": 500000, "upgradeCurrency": "elixir", "upgradeTime": "12h", "upgradeTimeSeconds": 43200, "boostPercent": 140, "durationSeconds": 18 },
+        { "level": 3, "requiredTownHall": 8, "upgradeCost": 1000000, "upgradeCurrency": "elixir", "upgradeTime": "1d", "upgradeTimeSeconds": 86400, "boostPercent": 150, "durationSeconds": 18 },
+        { "level": 4, "requiredTownHall": 8, "upgradeCost": 1800000, "upgradeCurrency": "elixir", "upgradeTime": "2d", "upgradeTimeSeconds": 172800, "boostPercent": 160, "durationSeconds": 18 },
+        { "level": 5, "requiredTownHall": 9, "upgradeCost": 3000000, "upgradeCurrency": "elixir", "upgradeTime": "3d", "upgradeTimeSeconds": 259200, "boostPercent": 170, "durationSeconds": 18 },
+        { "level": 6, "requiredTownHall": 12, "upgradeCost": 6000000, "upgradeCurrency": "elixir", "upgradeTime": "5d", "upgradeTimeSeconds": 432000, "boostPercent": 180, "durationSeconds": 18 }
+      ]
+    },
+    {
+      "name": "Inferno Tower",
+      "slug": "inferno-tower",
+      "entityType": "defense",
+      "category": "defenses",
+      "subcategory": "signature_defense",
+      "summary": "Streams searing solar flame that burns through even the thickest armor.",
+      "description": "Set the Inferno Tower's Dark Elixir fueled flame to build searing heat over time against massive targets, or roast multiple attackers at once in multi-target mode.",
+      "unlockTownHall": 10,
+      "maxLevel": 10,
+      "isFeatured": true,
+      "isActive": true,
+      "stats": {
+        "size": "3x3",
+        "range": "9.0 (Multi) / 10.0 (Single)",
+        "attackSpeed": 0.128,
+        "targetType": "Ground & Air",
+        "damageType": "Single Ramp-up or Multi-Target"
+      },
+      "levels": [
+        { "level": 1, "requiredTownHall": 10, "upgradeCost": 2500000, "upgradeCurrency": "gold", "upgradeTime": "2d", "upgradeTimeSeconds": 172800, "hitpoints": 1500, "damagePerSecond": 420 },
+        { "level": 2, "requiredTownHall": 10, "upgradeCost": 4000000, "upgradeCurrency": "gold", "upgradeTime": "3d", "upgradeTimeSeconds": 259200, "hitpoints": 1800, "damagePerSecond": 550 },
+        { "level": 3, "requiredTownHall": 10, "upgradeCost": 6000000, "upgradeCurrency": "gold", "upgradeTime": "4d", "upgradeTimeSeconds": 345600, "hitpoints": 2100, "damagePerSecond": 700 },
+        { "level": 4, "requiredTownHall": 11, "upgradeCost": 8000000, "upgradeCurrency": "gold", "upgradeTime": "5d", "upgradeTimeSeconds": 432000, "hitpoints": 2400, "damagePerSecond": 900 },
+        { "level": 5, "requiredTownHall": 11, "upgradeCost": 10000000, "upgradeCurrency": "gold", "upgradeTime": "6d", "upgradeTimeSeconds": 518400, "hitpoints": 2700, "damagePerSecond": 1150 },
+        { "level": 6, "requiredTownHall": 12, "upgradeCost": 12000000, "upgradeCurrency": "gold", "upgradeTime": "7d", "upgradeTimeSeconds": 604800, "hitpoints": 3100, "damagePerSecond": 1400 },
+        { "level": 7, "requiredTownHall": 13, "upgradeCost": 15000000, "upgradeCurrency": "gold", "upgradeTime": "9d", "upgradeTimeSeconds": 777600, "hitpoints": 3500, "damagePerSecond": 1700 },
+        { "level": 8, "requiredTownHall": 14, "upgradeCost": 18000000, "upgradeCurrency": "gold", "upgradeTime": "11d", "upgradeTimeSeconds": 950400, "hitpoints": 3900, "damagePerSecond": 2000 },
+        { "level": 9, "requiredTownHall": 15, "upgradeCost": 21000000, "upgradeCurrency": "gold", "upgradeTime": "13d", "upgradeTimeSeconds": 1123200, "hitpoints": 4300, "damagePerSecond": 2300 },
+        { "level": 10, "requiredTownHall": 16, "upgradeCost": 24000000, "upgradeCurrency": "gold", "upgradeTime": "14d", "upgradeTimeSeconds": 1209600, "hitpoints": 4700, "damagePerSecond": 2650 }
+      ]
+    }
+  ]
+}
